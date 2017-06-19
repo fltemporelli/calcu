@@ -1,0 +1,108 @@
+<html>
+	
+	<head>	
+			<meta charset="utf-8">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1">
+		    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700,700i" rel="stylesheet">
+		    <link rel="shortcut icon" href="i/favicon.ico" type="image/x-icon">
+		    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		    <!-- Bootstrap -->
+		    <link href="css/bootstrap.min.css" rel="stylesheet">
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		       
+		   
+		    <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+		    <link rel="stylesheet" href="css/estilocalcu.css">
+		    <title>Calculadora Online</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 sarasa">
+						<div class="row resultado">
+							<div class="col-md-11 gilada">
+								<div class="row otra" id="result">
+									
+								</div>
+							</div>
+						</div> <!-- fin row resultado-->
+						<div class="row suma">
+							<button type="button" class="btn btn-basic botonceleste" onclick="PressedOperator('+');">+</button>
+						</div> <!-- fin row suma-->
+						<div class="row resta">
+							<button type="button" class="btn btn-basic botonceleste" onclick="PressedOperator('-');">-</button>
+						</div> <!-- fin row resta-->
+						<div class="row calcu">
+							<div class="col-md-4 one">
+								<div class="row interna">
+									<div class="col-md-6 A">
+									<div class="row">
+										<button type="button" class="botonnegro" onclick="PressedOperator('/');">/</button>
+									</div>
+									</div>
+									<div class="col-md-6 B">
+									<div class="row">
+										<button type="button" class="botonnegro" onclick="PressedOperator('X');">X</button>
+									</div>
+									</div>
+								</div> <!--fin row interna-->
+							</div> <!-- fin col-->
+							<div class="col-md-8 two">
+								<div class="row inter">
+									<div class="col-md-4">
+									 	<div class="row small">
+									 		 <button type="button" class="btn-danger boton" onclick="PressedNumber(1);">1</button>
+									 	</div>
+										<div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedNumber(4);">4</button>
+									 	</div>
+										<div class="row small">
+											<button type="button" class="btn-danger boton" onclick="PressedNumber(7);">7</button>
+									 	</div>
+									 	<div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedOperator('.');">.</button>
+									 	</div>				
+									</div>
+									<div class="col-md-4">
+										 <div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedNumber(2);">2</button>
+									 	</div>
+										<div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedNumber(5);">5</button>
+									 	</div>
+										<div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedNumber(8);">8</button>
+									 	</div>
+									 	<div class="row small">
+									 	<button type="button" class="btn-danger boton" onclick="PressedNumber(0);">0</button>
+									 	</div>				
+									</div>
+									<div class="col-md-4">
+										<div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedNumber(3);">3</button>
+									 	</div>
+										<div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedNumber(6);">6</button>
+									 	</div>
+										<div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedNumber(9);">9</button>
+									 	</div>	
+									 	<div class="row small">
+									 		<button type="button" class="btn-danger boton" onclick="PressedOperator('=');">=</button>
+									 	</div>		
+									</div> <!-- fin col 4--> 
+								</div> <!-- fin inter -->
+							</div> <!-- fin col two --> 
+						</div> <!-- fin row calcu--> 
+				</div> <!-- fin column-->
+			</div> <!-- fin row -->
+		</div> <!-- fin container-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="calcu.js"></script>
+	</body>
+
+
+</html>
